@@ -1,5 +1,38 @@
 *{
     padding: 0;
     margin: 0;
-    outline: solid 1px black;
+}
+
+.header h5{
+    height: 25px;
+    display: inline-block;
+}
+
+.header span{
+    height: 25px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.header a{
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: center;
+    border: 1px solid black;
+}
+
+.gold{
+    border: 2px solid black;
+}
+
+.activities{
+    overflow-y: scroll; 
+    height: 200px;
+    border: 2px solid black;
+}
+
+.activities ul li{
+    list-style-type: none;
+    font-size: 15px;
 }
